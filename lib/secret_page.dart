@@ -9,7 +9,12 @@ class SecretPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Secret Page'),
       ),
-      body: Center(child: Text('Log In Successful'),),
+      body: const Center(
+        child: Text(
+          'Log In Successful',
+          style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
+        ),
+      ),
     );
   }
 }
